@@ -1,6 +1,11 @@
-## 我的AI學習歷程
+## 簡單的自我介紹
 
-不知不覺在這個領域也學了兩年多，如果不記錄、整理一下還挺浪費的，也深怕自己會忘記太久以前學到的基礎，於是這裡就誕生了
+身為一個大四生
+不知不覺在這個領域也學了兩年多
+如果不記錄、整理一下還挺浪費的
+也深怕自己會忘記太久以前學到的基礎
+於是這裡就誕生了
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
