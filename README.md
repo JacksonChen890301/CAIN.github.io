@@ -13,7 +13,8 @@
 以下的內容如果有錯誤、不清楚或需要更正的地方，歡迎聯絡我本人
 + #### 基礎  
 [<font face="微軟雅黑" size=4>　　Introduction: AI的本質</font>](https://jacksonchen890301.github.io/Jackson-Domain/Introduction/introduction.html)
-
++ #### Self-Supervised Learning: 自監督學習
+[<font face="微軟雅黑" size=4>　　以預測旋轉角度完成自監督: Unsupervised Representation Learning by Predicting Image Rotations</font>](https://jacksonchen890301.github.io/Jackson-Domain/Introduction/introduction.html)
 ### 聯絡方式
 在我的github上提問即可，或是聯絡以下信箱  
 email: loom890301@gmail.com
