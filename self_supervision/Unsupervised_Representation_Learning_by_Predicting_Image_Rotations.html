@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true"><h1 id="預測圖像旋轉角度就能實現自監督" data-id="預測圖像旋轉角度就能實現自監督"><a class="anchor hidden-xs" href="#預測圖像旋轉角度就能實現自監督" title="預測圖像旋轉角度就能實現自監督"><span class="octicon octicon-link"></span></a><span>預測圖像旋轉角度就能實現自監督?</span></h1><p data-original-title="" title=""><font face="微軟雅黑" size="3"><span>Unsupervised Representation Learning by Predicting Image Rotations(2018)</span></font></p><h2 id="概述" data-id="概述"><a class="anchor hidden-xs" href="#概述" title="概述"><span class="octicon octicon-link"></span></a><span>概述</span></h2><p><font face="微軟雅黑" size="3"><span>「對圖像做各種幾何上的變換，試圖讓模型辨識並從中學習」是Self-Supervised Learning研究中主要的手段。本次選讀的論文使用了非常簡單的概念—</span><strong><span>圖像旋轉</span></strong><span>。文中有提到，人類基本上都是以頭上腳下這樣的視角來認知世界，因此，如果我們看到一樣角度跟正常認知不一樣的圖片時，大致上也能判斷出來（當然，必須撇除掉那些有對稱性，無法看出角度偏差的物體，ex.球體）利用這一點，作者打算訓練出能像人類一樣能夠看出旋轉差異的模型，藉此讓使模型理解物件的本質。並且該研究的結果在當時也是大幅拉近了Self-Supervised和Supervised之間的差距。</span></font><br>
+    <div id="doc" class="markdown-body container-fluid comment-enabled comment-inner" data-hard-breaks="true"><h1 id="預測圖像旋轉角度就能實現自監督" data-id="預測圖像旋轉角度就能實現自監督"><a class="anchor hidden-xs" href="#預測圖像旋轉角度就能實現自監督" title="預測圖像旋轉角度就能實現自監督"><span class="octicon octicon-link"></span></a><span>預測圖像旋轉角度就能實現自監督?</span></h1><p data-original-title="" title=""><font face="微軟雅黑" size="3"><span>Unsupervised Representation Learning by Predicting Image Rotations(2018)</span></font></p><h2 id="概述" data-id="概述"><a class="anchor hidden-xs" href="#概述" title="概述"><span class="octicon octicon-link"></span></a><span>概述</span></h2><p><font face="微軟雅黑" size="3"><span>「對圖像做各種幾何上的變換，試圖讓模型辨識並從中學習」是Self-Supervised Learning研究中主要的手段。本次選讀的論文使用了非常簡單的概念—</span><strong><span>圖像旋轉</span></strong><span>。文中有提到，人類基本上都是以頭上腳下這樣的視角來認知世界，因此，如果我們看到一樣角度跟正常認知不一樣的圖片時，大致上也能判斷出來（當然，必須撇除掉那些有對稱性，無法看出角度偏差的物體，ex.球體）利用這一點，作者打算訓練出能像人類一樣能夠看出旋轉差異的模型，藉此讓使模型理解物件的本質。並且該研究的結果在當時也是大幅拉近了Self-Supervised和Supervised之間的差距。</span></font><br>
 <img src="https://i.imgur.com/QFAQRhX.png" alt="img01" loading="lazy"></p><h2 id="研究方法" data-id="研究方法"><a class="anchor hidden-xs" href="#研究方法" title="研究方法"><span class="octicon octicon-link"></span></a><span>研究方法</span></h2><p><font face="微軟雅黑" size="3"><span>該模型所要預測的，並不是旋轉角度的數值，而是把這個問題離散化。整個資料集會有K種旋轉角度（ex. 0°、180°）並各自劃分為一個類別，因此共會有K個類別。所以，整個模型其實就是在處理分類問題，自然loss function也是使用Categorical Cross Entropy。至於分類那幾種旋轉角度，會訓練出最好的模型呢？這裡先說結論，使用 0°、90°、180°、270° 四種的效果是最佳的，原因可以先想想看，本文後續會提到作者對此的看法。</span></font><br>
 <img src="https://i.imgur.com/axVzc8s.png" alt="img02" loading="lazy"></p><p><span>另外，概述中也有提到，之所以用旋轉角度的分類作為Pretext Task，正是因為在直覺上來說，只有當模型確實對物件的特徵有所認知，才能辦法做好角度的分類。為了證明該論述是正確的，論文中還作了以下的實驗。</span></p><ul>
 <li>
@@ -72,7 +72,8 @@
 <img src="https://i.imgur.com/NhiDHaT.png" alt="img08" loading="lazy"></p>
 </li>
 </ul><h2 id="結語" data-id="結語"><a class="anchor hidden-xs" href="#結語" title="結語"><span class="octicon octicon-link"></span></a><span>結語</span></h2><p><font face="微軟雅黑" size="3"><span>這篇論文的方法算是非常簡單的，沒有甚麼數學上的問題，純粹就是提出一個方法，而且效果也很不錯。在SSL的研究還沒那麼蓬勃發展的時期，這篇論文算是大幅推進了該領域。不過之後如果介紹近2020~2021年間SSL有名的論文，可能重新回來看這篇，會有種「研究走的真他媽快」的感覺。總之，這是我第一篇紀錄並介紹論文的文章，挑了相對簡單的，可能是因為</span><strong><span>我就爛.jpg</span></strong><span>，只看得懂簡單的論文。</span><br>
-<img src="https://i.imgur.com/r4h4S4F.png" alt="meme" loading="lazy"></font></p><font face="微軟雅黑" size="3">
+<img src="https://i.imgur.com/r4h4S4F.png" alt="meme" loading="lazy"><br>
+<a href="https://jacksonchen890301.github.io/Jackson-Domain/" target="_blank" rel="noopener"><font face="微軟雅黑" size="4" color="red"><strong><span>回到目錄</span></strong></font></a></font></p><font face="微軟雅黑" size="3">
 </font></div>
     <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
         <div class="pull-right dropdown">
@@ -81,11 +82,11 @@
             </a>
             <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
                 <div class="toc"><ul class="nav">
-<li><a href="#預測圖像旋轉角度就能實現自監督" title="預測圖像旋轉角度就能實現自監督?">預測圖像旋轉角度就能實現自監督?</a><ul class="nav">
+<li class=""><a href="#預測圖像旋轉角度就能實現自監督" title="預測圖像旋轉角度就能實現自監督?">預測圖像旋轉角度就能實現自監督?</a><ul class="nav">
 <li><a href="#概述" title="概述">概述</a></li>
 <li><a href="#研究方法" title="研究方法">研究方法</a></li>
 <li><a href="#實驗結果" title="實驗結果">實驗結果</a></li>
-<li><a href="#結語" title="結語">結語</a></li>
+<li class=""><a href="#結語" title="結語">結語</a></li>
 </ul>
 </li>
 </ul>
@@ -95,11 +96,11 @@
     </div>
     <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;" null null>
         <div class="toc"><ul class="nav">
-<li><a href="#預測圖像旋轉角度就能實現自監督" title="預測圖像旋轉角度就能實現自監督?">預測圖像旋轉角度就能實現自監督?</a><ul class="nav">
+<li class=""><a href="#預測圖像旋轉角度就能實現自監督" title="預測圖像旋轉角度就能實現自監督?">預測圖像旋轉角度就能實現自監督?</a><ul class="nav">
 <li><a href="#概述" title="概述">概述</a></li>
 <li><a href="#研究方法" title="研究方法">研究方法</a></li>
 <li><a href="#實驗結果" title="實驗結果">實驗結果</a></li>
-<li><a href="#結語" title="結語">結語</a></li>
+<li class=""><a href="#結語" title="結語">結語</a></li>
 </ul>
 </li>
 </ul>
