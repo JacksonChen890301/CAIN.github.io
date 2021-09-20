@@ -12,7 +12,7 @@
 以下的內容如果有錯誤、不清楚或需要更正的地方，歡迎聯絡我本人
 + #### 基礎
 1. [<font face="微軟雅黑">Introduction: AI的本質</font>](https://jacksonchen890301.github.io/Jackson-Domain/Introduction/introduction.html)
-2. <font face="微軟雅黑">深度學習框架: Pytorch與Tensorflow(撰寫中)</font>
+2. [<font face="微軟雅黑">深度學習框架: Pytorch與Tensorflow</font>](https://jacksonchen890301.github.io/Jackson-Domain/Introduction/Pytorch與Tensorflow.html)</font>
 + #### Self-Supervised Learning: 自監督學習
 3. [<font face="微軟雅黑">預測圖像旋轉角度就能實現自監督? Unsupervised Representation Learning by Predicting Image Rotations</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/Unsupervised_Representation_Learning_by_Predicting_Image_Rotations.html)
 
