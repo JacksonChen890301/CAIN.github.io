@@ -18,7 +18,7 @@
 2. [<font face="微軟雅黑">SimCLR:自監督學習領域的重大突破 A Simple Framework for Contrastive Learning of Visual Representations](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/SimCLR.html)
 3. <font face="微軟雅黑">Barlow Twins: SimCLR後進一步提升(撰寫中)</font>
 
-最後更新: 2021/9/20 
+最後更新: 2021/10/07 
 ### 聯絡方式
 在我的github上提問即可，或是聯絡以下信箱  
 email: loom890301@gmail.com
