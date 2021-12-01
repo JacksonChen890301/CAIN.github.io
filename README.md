@@ -13,12 +13,13 @@
 + #### 基礎
 1. [<font face="微軟雅黑">Introduction: AI的本質</font>](https://jacksonchen890301.github.io/Jackson-Domain/Introduction/introduction.html)
 2. [<font face="微軟雅黑">深度學習框架: Pytorch與Tensorflow</font>](https://jacksonchen890301.github.io/Jackson-Domain/Introduction/Pytorch與Tensorflow.html)
+3. [<font face="微軟雅黑">Tensorflow Lattice(TFL)</font>](https://jacksonchen890301.github.io/Jackson-Domain/Introduction/TensorFlow Lattice (TFL).html)
 + #### Self-Supervised Learning: 自監督學習
-1. [<font face="微軟雅黑">預測圖像旋轉角度就能實現自監督? Unsupervised Representation Learning by Predicting Image Rotations</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/Unsupervised_Representation_Learning_by_Predicting_Image_Rotations.html)
-2. [<font face="微軟雅黑">SimCLR:自監督學習領域的重大突破 A Simple Framework for Contrastive Learning of Visual Representations</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/SimCLR.html)
-3. <font face="微軟雅黑">Barlow Twins: SimCLR後進一步提升(撰寫中)</font>
+4. [<font face="微軟雅黑">預測圖像旋轉角度就能實現自監督? Unsupervised Representation Learning by Predicting Image Rotations</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/Unsupervised_Representation_Learning_by_Predicting_Image_Rotations.html)
+5. [<font face="微軟雅黑">SimCLR:自監督學習領域的重大突破 A Simple Framework for Contrastive Learning of Visual Representations</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/SimCLR.html)
+6. <font face="微軟雅黑">Barlow Twins: SimCLR後進一步提升(撰寫中)</font>
 
-最後更新: 2021/10/07 
+最後更新: 2021/12/02 
 ### 聯絡方式
 在我的github上提問即可，或是聯絡以下信箱  
 email: loom890301@gmail.com
