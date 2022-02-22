@@ -1,5 +1,5 @@
 ## 序
-<font face="微軟雅黑" size=4>身為一個大四生<br></font>
+<font face="微軟雅黑" size=4>身為一個準碩一生<br></font>
 <font face="微軟雅黑" size=4>不知不覺在這個領域也學了兩年多<br></font>
 <font face="微軟雅黑" size=4>如果不記錄一下還挺浪費的<br></font>
 <font face="微軟雅黑" size=4>也深怕自己會忘記太久以前學到的基礎<br></font>
@@ -19,7 +19,7 @@
 5. [<font face="微軟雅黑">SimCLR:自監督學習領域的重大突破 A Simple Framework for Contrastive Learning of Visual Representations</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/SimCLR.html)
 6. <font face="微軟雅黑">Barlow Twins: SimCLR後進一步提升(撰寫中)</font>
 
-最後更新: 2021/12/02 
+最後更新: 2022/02/22 
 ### 聯絡方式
 在我的github上提問即可，或是聯絡以下信箱  
 email: loom890301@gmail.com
