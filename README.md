@@ -20,7 +20,7 @@
 6. <font face="微軟雅黑">Barlow Twins: SimCLR後進一步提升(撰寫中)</font>
 7. [<font face="微軟雅黑">利用Transformer特性所達成的圖像自監督學習 Masked Autoencoders Are Scalable Vision Learners</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/Masked_Autoencoder.html)
 
-最後更新: 2022/02/22 
+最後更新: 2022/04/26 
 ### 聯絡方式
 在我的github上提問即可，或是聯絡以下信箱  
 email: loom890301@gmail.com
