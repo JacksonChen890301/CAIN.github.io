@@ -1,3 +1,5 @@
+最後更新: 2024/10/16 
+
 ## 序
 <font face="微軟雅黑" size=4>2024年碩士畢業剛開始在研究單位工作<br></font>
 <font face="微軟雅黑" size=4>又需要重新學很多東西<br></font>
@@ -17,9 +19,6 @@
 3. [<font face="微軟雅黑">利用Transformer特性所達成的圖像自監督學習 Masked Autoencoders Are Scalable Vision Learners</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/Masked_Autoencoder.html)
 + #### Diffusion Model
 1. DDPM與DDIM理論基礎
-
-
-最後更新: 2024/10/16 
 
 ### 聯絡方式
 email: loom890301@gmail.com
