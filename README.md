@@ -18,7 +18,7 @@
 2. [<font face="微軟雅黑">SimCLR:自監督學習領域的重大突破 A Simple Framework for Contrastive Learning of Visual Representations</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/SimCLR.html)
 3. [<font face="微軟雅黑">利用Transformer特性所達成的圖像自監督學習 Masked Autoencoders Are Scalable Vision Learners</font>](https://jacksonchen890301.github.io/Jackson-Domain/self_supervision/Masked_Autoencoder.html)
 + #### **Diffusion Model**
-1. [<font face="微軟雅黑">盡量白話的Diffusion Model基礎知識整理</font>](https://jacksonchen890301.github.io/Jackson-Domain/diffusion/basic)
+1. [<font face="微軟雅黑">盡量白話的Diffusion Model基礎知識整理</font>](https://jacksonchen890301.github.io/diffusion/basic)
 
 ### **聯絡方式**
 email: loom890301@gmail.com
