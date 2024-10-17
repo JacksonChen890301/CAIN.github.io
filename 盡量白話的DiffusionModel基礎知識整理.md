@@ -1,5 +1,5 @@
 layout: page
-title: "盡量白話的Diffusion Model基礎知識整理  "
+title: "盡量白話的Diffusion Model基礎知識整理"
 permalink: /diffusion/basic/
 
 # 盡量白話的Diffusion Model基礎知識整理  
