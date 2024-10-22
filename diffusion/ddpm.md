@@ -1,6 +1,3 @@
-<!-- my-page.html --> 
-<script src="https://rawcdn.githack.com/oscarmorrison/md-page/232e97938de9f4d79f4110f6cfd637e186b63317/md-page.js"></script><noscript>
-
 # 盡量白話的Diffusion Model基礎知識整理  
 整理給自己看的Diffusion Model基本知識 
 為了方便理解寫得很白話(不負責任版)
@@ -15,7 +12,7 @@
 
 ### **Forward Diffusion**  
 
-&emsp;在$\mathbf{x}_0 \sim q(\mathbf{x})$這個前提下，如果對$\mathbf{x}_0$添加Gaussian noise，並重複 $T$ 次，生成出 $\mathbf{x}_1, ..., \mathbf{x}_T$ 一系列的加噪圖像。在 $T$ 夠大的情況下，最後生成出來的$\mathbf{x}_T$應該會趨近於Gaussian noise。以上操作數學上表示為：
+&emsp;在 $\mathbf{x}_0 \sim q(\mathbf{x})$ 這個前提下，如果對 $\mathbf{x}_0$ 添加Gaussian noise，並重複 $T$ 次，生成出 $\mathbf{x}_1, ..., \mathbf{x}_T$ 一系列的加噪圖像。在 $T$ 夠大的情況下，最後生成出來的 $\mathbf{x}_T$ 應該會趨近於Gaussian noise。以上操作數學上表示為：
     
 $$\begin{aligned}
     q(\mathbf{x}_t|\mathbf{x}_{t-1})
